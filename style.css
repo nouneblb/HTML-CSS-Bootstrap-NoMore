@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap'); /*ajout de font*/
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@600;700&display=swap');
+
+/*arrière-plan corps de page */
+body {
+    background-color: #7678ED;
+}
+
+/*arrière-plan nav bar */
+.custom-bg-color {
+    background-color: #3D348B;
+}
+
+/*onglet nav bar */
+.nav-link {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 17px;
+    letter-spacing: 0.9px;
+    font-family: 'work-sans', sans-serif;
+    font-weight: bold;
+    color: white;
+    margin: 0 40px;
+}
+
+/*bouton Je soutiens */
+.item-soutiens a {
+    text-decoration: none;
+    font-family: 'work-sans', sans-serif;
+    font-weight: bold;
+    letter-spacing: 0.9px;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    background-color: #EB2551;
+    padding: 10px;
+    border-radius: 20px;
+    margin-right: 30px;
+}
+/*effet survol bouton je soutiens */
+.item-soutiens a:hover {
+    background-color: white;
+    color: #EB2551;
+}
+
+/*bloc 1 */
+.bloc-1 {
+    background-color: #7678ED;
+    font-family: 'work-sans', sans-serif;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-align: left;
+    font-size: 30px;
+    color: white;
+    margin-top: 60px;
+}
+/*titre h2 du bloc1 */
+h2 {
+    font-family: 'work-sans', sans-serif;
+    font-weight: bold;
+    text-align: left;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-size: 60px;
+    color: white;
+    margin-top: 50px;
+}
+
+/*bloc 2 */
+.bloc-2 {
+    background-color: #3D348B;
+    color: white;
+    font-family: 'work-sans', sans-serif;
+    letter-spacing: 1px;
+    font-size: 17px;
+    margin-top: -30px;
+}
+
+.paragraphe-presentation {
+    margin-top: 60px;
+    text-align: center;
+}
+
+.villes {
+    text-align: center;
+    color: #F7B801;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+/*Bloc 3 colonne 1 */
+.bloc-3 {
+    margin-top: 60px;
+}
+
+.titre {
+    color: white;
+    font-family: 'work-sans', sans-serif;
+    font-size: 22px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.text-bloc3 {
+    color: #F7B801;
+    font-size: 18px;
+    text-align: center;
+    font-family: 'work-sans', sans-serif;
+}
+
+/*Section 1 cards */
+.section-1 {
+    background-color: white;
+    margin-top: 70px;
+}
+
+/*card modifications */
+.card {
+    margin-top: 30px;
+    background-color: #3D348B;
+    border-radius: 0;
+    border: none;
+}
+
+.card-title {
+    color: white;
+    font-size: 30px;
+    font-family: 'work-sans', sans-serif;
+    font-weight: bold; 
+}
+
+.card-text {
+    color: white;
+    font-size: 20px;
+    font-family: 'work-sans', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.card-description {
+    color: #F7B801;
+    font-family: 'work-sans', sans-serif;
+    font-size: 15px;
+}
+
+/*bouton lien section 2 */
+.section-2 {
+    background-color: white;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+/*custom bouton */
+.bouton {
+    color: white;
+    background-color: #3D348B;
+    border-radius: 0;
+}
+
+.bouton:hover {
+    color: white;
+    background-color: #EB2551;
+}
+
+/*footer section */
+.footer-section {
+    border-color: #7678ED;
+}
