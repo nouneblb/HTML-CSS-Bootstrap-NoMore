@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Page Event - No More association</title>
     <link rel="stylesheet" href="assets/bootstrap.min.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="event.css">
 </head>
 
 <body>
@@ -43,51 +43,121 @@
     </nav>
 </header>
 
-<!--carousel-->
-<div class="carousel slide" id="carouselNoMore">
-    <div class="carousel-inner">
-<!--carousel slides-->
-        <div class="carousel-item active">
-            <img src="assets/not-alone.webp" alt="not-alone" class="w-100 h-auto">
-        </div>
-        <div class="carousel-item">
-            <img src="" alt="">
-        </div>
-        <div class="carousel-item">
-            <img src="" alt="">
-        </div>
-    </div>
-<!--carousel bouton prev control-->
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselNoMore" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-    </button>
-<!--carousel bouton next control-->
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselNoMore" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-    </button>
-</div>
-
-<!--ajout d'une section en dessous du carousel-->
-    <section class="content-section">
+<!--ajout d'une section en dessous de la barre nav-->
+    <section class="content-section text-center">
         <div class="container">
             <div class="row">
-                <div class="col-12">
-                    <h1>Evenements Futurs</h1>
-                    <p>Tous les évènements sont accessibles aux +18 ans. 
+                <div class="col-12 mx-auto">
+                    <hr class="my-3 mx-auto">
+                    <h1>évènements Futurs</h1>
+                    <hr class="barre-content">
+                    <p>L'accès aux évènements est reservé aux +18 ans. 
+                        <br>
                         Se munir d'une pièce d'identité valide</p>
                 </div>
             </div>
         </div>
     </section>
 
+<!--ajout de 9 cards en 3 colonnes par ligne-->
+    <section class="container my-4">
+        <div class="row">
+<!--card 1-->
+            <div class="col-md-4 col-sm-6 mb-4">
+                <div class="card-event">
+                    <img src="" alt="groupe de parole">
+                    <div class="card-event-body">
+                        <h5 class="card-title-event">Groupe de Parole</h5>
+                        <p class="card-text-event">Description de la carte 1</p>
+                    </div>
+                </div>
+            </div>
+<!--card 2-->
+            <div class="col-md-4 col-sm-6 mb-4">
+                <div class="card-event">
+                    <img src="" alt="">
+                    <div class="card-event-body">
+                        <h5 class="card-title-event">Groupe de Parole</h5>
+                        <p class="card-text-event">Description de la carte 1</p>
+                    </div>
+                </div>
+            </div>
+<!--card 3-->
+            <div class="col-md-4 col-sm-6 mb-4">
+                <div class="card-event">
+                    <img src="" alt="">
+                    <div class="card-event-body">
+                        <h5 class="card-title-event">Groupe de Parole</h5>
+                        <p class="card-text-event">Description de la carte 1</p>
+                    </div>
+                </div>
+            </div>
+<!--card 4-->
+            <div class="col-md-4 col-sm-6 mb-4">
+                <div class="card-event">
+                    <img src="" alt="">
+                    <div class="card-event-body">
+                        <h5 class="card-title-event">Groupe de Parole</h5>
+                        <p class="card-text-event">Description de la carte 1</p>
+                    </div>
+                </div>
+            </div>
+<!--card 5-->
+            <div class="col-md-4 col-sm-6 mb-4">
+                <div class="card-event">
+                    <img src="" alt="">
+                    <div class="card-event-body">
+                        <h5 class="card-title-event">Groupe de Parole</h5>
+                        <p class="card-text-event">Description de la carte 1</p>
+                    </div>
+                </div>
+            </div>
+<!--card 6-->
+            <div class="col-md-4 col-sm-6 mb-4">
+                <div class="card-event">
+                    <img src="" alt="">
+                    <div class="card-event-body">
+                        <h5 class="card-title-event">Groupe de Parole</h5>
+                        <p class="card-text-event">Description de la carte 1</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    
+   
+
+
+   
 
 
 
 
+<!--ajout du footer-->
 
-
+<!--Pied de page avec logo et onglet-->
+<div class="container-fluid footer-section">
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+        <p class="col-md-4 mb-0 text-muted">© 2023 No More, Inc</p>
+<!--logo centrer-->
+        <a href="Index.html" class="d-flex justify-content-center align-items-center col-md-4">
+            <img src="assets/logofinal.svg" width="100" height="100" alt="Logo">
+        </a>
+<!--onglet nav-->
+        <ul class="nav col-md-4 justify-content-end">
+            <li class="nav-item">
+                <a href="event.html" class="nav-linkfooter px-2 text-muted">Évènements</a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-linkfooter px-2 text-muted">Partenaires</a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-linkfooter px-2 text-muted">Contact</a>
+            </li>
+        </ul>
+    </footer>
+</div>
 
 
 
