@@ -30,6 +30,7 @@
     padding: 10px;
     border-radius: 20px;
     margin-right: 30px;
+    margin-top: 30px;
 }
 /*effet survol bouton je soutiens */
 .item-soutiens a:hover {
@@ -82,15 +83,16 @@ hr {
 
 /*styles pour les cartes */
 .card {
-    margin-bottom: 30px;
+    margin-top: 50px;
+    margin-bottom: 50px;
     border-radius: 15px;
     overflow: hidden;
     position: relative;
+    border: none;
 }
 
 .content-section-card {
-    margin-top: 30px;
-    margin-bottom: 20px;
+    background-color: #7678ED;
 }
 
 .card-body {
@@ -100,6 +102,7 @@ hr {
 
 .card-title-desc {
     font-size: 25px;
+    font-weight: bold;
 }
 
 .date {
@@ -107,6 +110,29 @@ hr {
     display: inline-block;
     padding: 3px;
     border: 1px solid white;
+}
+
+.card-text-card {
+    font-size: 13px;
+}
+
+.lieux {
+    font-size: 13px;
+}
+
+/*style pour boutons */
+.btn {
+    background-color: #3D348B;
+    color: white;
+    margin-top: -40px;
+    margin-bottom: 50px;
+    font-family: 'work-sans', sans-serif;
+}
+
+.btn:hover {
+    background-color: #EB2551;
+    color: white;
+    font-family: 'work-sans', sans-serif;
 }
 
 /*animation cards */
@@ -135,5 +161,10 @@ hr {
 
 .card:hover .card-body {
     right: 0;
+}
+
+/*ajout de styles pour l'effet de flou img */
+.card:hover .card-img-top {
+    filter: blur(5px);
 }
 
