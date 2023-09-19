@@ -81,29 +81,59 @@ hr {
 }
 
 /*styles pour les cartes */
-.card-event {
-    position: relative;
+.card {
+    margin-bottom: 30px;
+    border-radius: 15px;
     overflow: hidden;
-    cursor: pointer;
+    position: relative;
 }
 
-.card-image img {
-    max-width: 100%;
-    height: auto;
-    display: block;
-    transition: opacity 0.3s ease-in-out;
+.content-section-card {
+    margin-top: 30px;
+    margin-bottom: 20px;
 }
 
-.card-title-event:hover + .card-event-body .card-image img {
-    opacity: 0;
+.card-body {
+    color: white;
+    font-family: 'work-sans', sans-serif;
 }
 
-.card-event-body {
-    background-color: #3D348B;
-    padding: 15px;
-    transition: opacity 0.3s ease-in-out;
+.card-title-desc {
+    font-size: 25px;
 }
 
-.card-title-event:hover + .card-event-body {
-    opacity: 1;
+.date {
+    font-size: 13px;
+    display: inline-block;
+    padding: 3px;
+    border: 1px solid white;
 }
+
+/*animation cards */
+.card-img-top {
+    object-fit: cover;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.card-body {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: -100%;
+    color: white;
+    position: absolute;
+    background-color: #1f3d4738;
+    backdrop-filter: blur(5px);
+    border-radius: 15px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transition: 1.5s;
+}
+
+.card:hover .card-body {
+    right: 0;
+}
+
