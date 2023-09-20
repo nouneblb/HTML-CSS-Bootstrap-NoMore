@@ -1,0 +1,167 @@
+/* styles page Events*/
+/*arrière-plan nav bar */
+.custom-bg-color {
+    background-color: #3D348B;
+}
+
+/*onglet nav bar */
+.nav-link {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 17px;
+    letter-spacing: 0.9px;
+    font-family: 'work-sans', sans-serif;
+    font-weight: bold;
+    color: white;
+    margin: 0 40px;
+}
+
+/*bouton Je soutiens */
+.item-soutiens a {
+    text-decoration: none;
+    font-family: 'work-sans', sans-serif;
+    font-weight: bold;
+    letter-spacing: 0.9px;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    background-color: #EB2551;
+    padding: 10px;
+    border-radius: 20px;
+    margin: 30px 0 30px;
+}
+/*effet survol bouton je soutiens */
+.item-soutiens a:hover {
+    background-color: white;
+    color: #EB2551;
+}
+
+
+/*style pour la section-content */
+.content-section {
+    background-color: #F7B801;
+    padding: 20px;
+}
+
+/*style du trait hr*/
+hr {
+    color: white;
+    border: none;
+    border-top: 3px solid white;
+    width: 300px;
+    margin-top: 20px;
+}
+
+.barre-content {
+    color: #F7B801;
+    border: none;
+    border-top: 3px solid #EB2551;
+    width: auto;
+    margin-top: 50px;
+}
+
+.content-section h1 {
+    color:white;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 35px;
+    font-family: 'work-sans', sans-serif;
+}
+
+.content-section p {
+    color: whitesmoke;
+    font-size: 16px;
+    font-family: 'work-sans', sans-serif;
+    text-align: right;
+    background-color: #EB2551;
+    padding:1px;
+    display: inline-block;
+    margin-left: 200px;
+}
+
+/*styles pour les cartes */
+.card {
+    margin: 50px 0 50px;
+    border-radius: 15px;
+    overflow: hidden;
+    position: relative;
+    border: none;
+}
+
+.content-section-card {
+    background-color: #7678ED;
+}
+
+.card-body {
+    color: white;
+    font-family: 'work-sans', sans-serif;
+}
+
+.card-title-desc {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.date {
+    font-size: 13px;
+    display: inline-block;
+    padding: 3px;
+    border: 1px solid white;
+}
+
+.card-text-card {
+    font-size: 13px;
+}
+
+.lieux {
+    font-size: 13px;
+}
+
+/*style pour boutons */
+.btn {
+    background-color: #3D348B;
+    color: white;
+    margin: -40px 0 50px;
+    font-family: 'work-sans', sans-serif;
+}
+
+.btn:hover {
+    background-color: #EB2551;
+    color: white;
+    font-family: 'work-sans', sans-serif;
+}
+
+/*animation cards */
+.card-img-top {
+    object-fit: cover;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.card-body {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: -100%;
+    color: white;
+    position: absolute;
+    background-color: #1f3d4738;
+    backdrop-filter: blur(5px);
+    border-radius: 15px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transition: 1.5s;
+}
+
+.card:hover .card-body {
+    right: 0;
+}
+
+/*ajout de styles pour l'effet de flou img */
+.card:hover .card-img-top {
+    filter: blur(5px);
+}
+
