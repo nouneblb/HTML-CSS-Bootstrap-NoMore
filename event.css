@@ -53,6 +53,7 @@ hr {
     margin-top: 20px;
 }
 
+/*modification du main*/
 .barre-content {
     color: #F7B801;
     border: none;
@@ -73,11 +74,19 @@ hr {
     color: whitesmoke;
     font-size: 16px;
     font-family: 'work-sans', sans-serif;
-    text-align: right;
+    text-align: center;
     background-color: #EB2551;
-    padding:1px;
     display: inline-block;
-    margin-left: 200px;
+    padding: 10px;
+    margin: 0;
+}
+
+/*media pour les écrans plus larges*/
+@media (min-width: 768px) {
+    .content-section p {
+        text-align: right;
+        margin-left: 200px;
+    }
 }
 
 /*styles pour les cartes */
